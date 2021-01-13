@@ -1,0 +1,89 @@
+.colorlol {
+	background-color: #f0dbdb;
+}
+
+.navigate {
+	width: 10vw;
+	height: 47.75vw;
+	margin: 0.25vw;
+	float:right;
+	background-color: #ff9aa2;
+}
+	
+.wiewie {
+	font-family: 'Sue Ellen Francisco', cursive;
+	color: black;
+	margin-left: 1.04167vw;
+	letter-spacing: 0.104167vw;
+	font-size: 1.823vw;
+}
+
+.hr {
+	color: #ff9aa2;
+}	
+	
+.navigatetitle {
+	font-size: 1.43vw;
+	font-family: 'Nanum Pen Script', cursive;
+	text-align:center;
+}
+	
+.teks {
+	font-size: 3.2vw;
+	font-family: 'Caveat Brush', cursive;
+	color: #ff9aa2;
+	border: 0.0184vw solid #f0dbdb;
+	margin-left: 3.5vw;
+	margin-right:0.32vw;
+	margin-top:2.641vw;
+	margin-bottom: 0.194vw;
+}
+
+.whack {
+	float: right;
+	width: 24vw;
+	height: 14vw;
+	margin-right:3.4vw;
+	margin-top:0.034vw;
+	margin-left:0.34vw;
+}
+
+.boom {
+	float:left;
+	width:26.5vw;
+	height:26.5vw;
+	margin-left:1.7vw;
+	margin-bottom:0.17vw;
+	margin-right:0.34vw;
+}
+
+.tsk {
+	font-size: 3.2vw;
+	font-family: 'Caveat Brush', cursive;
+	color: #ff9aa2;
+	border: 0.01vw solid #f0dbdb;
+	margin-right: 5.4vw;
+	margin-left:1.79vw;
+	margin-top:6.864vw;
+	margin-bottom:0.358vw;
+	float: right;
+	text-align:right;
+}
+
+.wushu {
+	font-size: 2.05vw;
+	font-family: 'Caveat Brush', cursive;
+	color: #ffb0b0;
+	border: 0.15375vw solid #f0dbdb;
+	margin-right: 5.4vw;
+	margin-left:19vw;
+	margin-bottom:0.513vw;
+	float: right;
+	text-align:right;	
+}
+
+li {
+	font-size: 1.405vw;
+	font-family: 'Nanum Pen Script', cursive;
+	text-align:left;
+}
