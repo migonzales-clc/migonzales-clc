@@ -1,0 +1,230 @@
+.colorlawl {
+	background-color:#f6d4f9;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+.navigate {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align:center;
+	background-color:#bc8fd0;
+	color: #fff;
+	border-width:100%;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+.navlinks ul{
+	margin:0;
+	padding:0;
+	display:flex;
+	text-align:center;
+}
+
+.navlinks li {
+	text-decoration:none;
+	color:white;
+	padding: 1.4vw;
+	display:block;
+	text-align:center;
+}
+
+.navlinks li a {
+	text-decoration:none;
+	color:white;
+	text-align:center;
+}
+
+.navlinks li:hover {
+	background-color:#CCAADD;
+}
+
+li {
+	font-size: 1.405vw;
+	font-family: 'Nanum Pen Script', cursive;
+	text-align:left;
+}
+
+.teks {
+	display:none;
+}	
+
+.center {
+	text-align:justify;
+	width:90%;
+	margin:0 5vw 5vw;
+}
+
+.water {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size:2vw;
+	margin-bottom:2vw;
+}
+
+.references {
+	font-family: 'Nanum Pen Script', cursive;
+	color:#CCAADD;
+	font-size:2vw;
+}
+
+.image {
+	display:flex;
+	justify-content:center;
+	margin-top:4vw;
+	width:100%;
+}
+
+.pick {
+	max-height:40vw;
+}
+
+.titulo {
+	font-family:'Caveat Brush', cursive;
+	font-size:4.5vw;
+	color:#C084CC;
+	width:100%;
+}
+
+.title {
+	display:flex;
+	justify-content:center;
+	margin-top:0;
+	width:100%;
+	text-align:center;
+}
+
+.navi {
+	display:flex;
+	justify-content:center;
+}
+
+.rightarrow {
+	transform: rotate(-180deg);
+	margin:2vw 3.5vw 0;
+}
+
+.leftarrow {
+	margin:2vw 3.5vw 0;
+}
+
+@media screen and (max-width: 800px) {
+	.navigate {
+		display:none;
+	}
+
+	.top {
+		display:flex;
+		font-family:'Caveat Brush', cursive;
+		color:#fff;
+		border-bottom:outset #bc8fd0;
+		padding:3vw;
+		margin:0;
+		justify-content:center;
+		background-color:#bc8fd0;
+		font-size:7vw;
+	}
+	
+	.teks {
+		display:initial;
+	}
+	
+	.titulo {
+		font-size:5.15vw;
+		margin-top:7vw;
+		margin-bottom:0;
+	}
+	
+	.pick {
+		max-height:47vw;
+	}
+	
+	.water {
+		font-size:5vw;
+	}
+	
+	.center {
+		width:85%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.references {
+		font-size:5vw;
+		margin-bottom:11vw;
+	}
+	
+	.leftarrow {
+		max-height:9vw;
+		max-width:9vw;
+	}
+	
+	.rightarrow {
+		max-height:9vw;
+		max-width:9vw;
+	}
+	
+}
+
+@media screen and (max-width: 400px) {
+	.navigate {
+		display:none;
+	}
+
+	.top {
+		display:flex;
+		font-family:'Caveat Brush', cursive;
+		color:#fff;
+		border-bottom:outset #bc8fd0;
+		padding:1vw;
+		margin:0;
+		justify-content:center;
+		background-color:#bc8fd0;
+		font-size:7vw;
+	}
+	
+	.teks {
+		display:initial;
+	}
+	
+	.titulo {
+		font-size:5.15vw;
+		margin-top:7vw;
+		margin-bottom:0;
+	}
+	
+	.pick {
+		max-height:47vw;
+	}
+	
+	.water {
+		font-size:5vw;
+	}
+	
+	.center {
+		width:85%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.references {
+		font-size:5vw;
+		margin-bottom:11vw;
+	}
+	
+	.leftarrow {
+		max-height:9vw;
+		max-width:9vw;
+	}
+	
+	.rightarrow {
+		max-height:9vw;
+		max-width:9vw;
+	}
+	
+}

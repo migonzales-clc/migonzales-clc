@@ -1,0 +1,428 @@
+
+.colorlol {
+	background-color: #f0dbdb;
+}
+
+.navigate {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align:center;
+	background-color:#cc9797;
+	color: white;
+	border-width:100%;
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin:0;
+	padding:0;
+} 
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+.navlinks ul{
+	margin:0;
+	padding:0;
+	display:flex;
+	text-align:center;
+}
+
+.navlinks li {
+	text-decoration:none;
+	color:white;
+	padding: 1.4vw;
+	display:block;
+	text-align:center;
+}
+
+.navlinks li a {
+	text-decoration:none;
+	color:white;
+	text-align:center;
+}
+
+.navlinks li:hover {
+	background-color:#ab7474;
+}
+
+.teks {
+	font-size: 5vw;
+	font-family: 'Caveat Brush', cursive;
+	color: #CC9797;
+	text-align:center;
+}
+
+.tsk a {
+	font-size: 4vw;
+	font-family: 'Caveat Brush', cursive;
+	color: #ff9aa2;
+	text-decoration:none;
+}
+
+.boom {
+	width:20vw;
+	height:20vw;
+}
+
+.boxx {
+	position:absolute;
+	top:30vw;
+	left:50%;
+	transform:translate(-50%, -50%);
+	padding: 2.1164vw;
+	box-sizing:border-box;
+	background-color:#f0dbdb;
+	border-radius:0.42328vw;
+	display:flex;
+	width:75%;
+	transition:0.5s;
+	border:0.21164vw dotted #AB7474; 
+}
+
+.boxx:hover {
+	box-shadow:0 1.5873vw 3.1746vw rgba(0,0,0,.5);
+}
+
+.boxx .imgboxx {
+	width:20vw;
+	flex:0 0 20vw;
+}
+
+.boxx .imgboxx img {
+	max-width:100%;
+}
+
+.boxx .lecontent {
+	padding-left:2.1164vw;
+}
+
+.boxx .lecontent h2 {
+	margin:0;
+	padding-left:0;
+}
+
+.boxx .lecontent p {
+	margin:0;
+	padding:1.0582vw 0 0;
+	text-align:justify;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size:2vw;
+}
+
+li {
+	font-size: 1.405vw;
+	font-family: 'Nanum Pen Script', cursive;
+	text-align:center;
+}
+
+.tex {
+	font-size: 7vw;
+	font-family: 'Caveat Brush', cursive;
+	color: #CC9797;
+	text-align:center;
+}
+
+.bom {
+	display:none;
+}
+
+.dacontent {
+	display:none;
+}
+
+.wack {
+	display:none;
+}
+
+.trail {
+	display:none;
+}
+
+.othor {
+	display:none;
+}
+
+@media screen and (max-width: 800px) {
+	
+	.teks {
+		font-size:7vw;
+		border-bottom:outset #e7c7c7;
+		margin:0;
+		padding:7vw;
+		display:flex;
+		justify-content:center;
+		background-color:#e7c7c7;
+	}
+	
+	.boom {
+		display:none;
+	}
+	
+	.lecontent {
+		display:none;
+	}
+	
+	.boxx {
+		position:initial;
+		top:initial;
+		left:initial;
+		transform:initial;
+		padding: initial;
+		box-sizing:initial;
+		background-color:initial;
+		border-radius:initial;
+		display:initial;
+		width:initial;
+		transition:initial;
+		border:initial;
+		font-size:initial;
+	}
+	
+	.bom {
+		display:flex;
+		justify-content:center;
+	}
+	
+	.bom1 {
+		max-height:45vw;
+		margin-top:2vw;
+	}
+	
+	.navigate {
+		display:none;
+	}
+	
+	.imgboxx {
+		width:initial;
+		flex:initial;
+	}
+	
+	.dacontent {
+		display:flex;
+		text-align:justify;
+		justify-content:center;
+		flex-direction:column;
+		margin-left:13vw;
+		margin-right:13vw;
+		margin-top:0;
+		margin-bottom:6vw;
+		border:1vw dashed #ff9aa2;
+		border-radius:2vw;
+		padding:3vw;
+		background-color:#F4E6E6;
+	}
+	
+	.eych2 {
+		font-size:7vw;
+		font-family: 'Caveat Brush', cursive;
+		display:flex;
+		justify-content:center;
+		margin:0;
+	}
+	
+	.eych2 a {
+		text-decoration:none;
+		color:#AB7474;
+	}
+	
+	.desc {
+		font-size:6vw;
+		font-family:'Nanum Pen Script', cursive;
+		margin:1vw;
+	}
+	
+	.trail {
+		display:flex;
+		justify-content:center;
+		color:#AB7474;
+	}
+	
+	.wack {
+		display:flex;
+		justify-content:center;
+		margin-top:7vw;
+	}
+	
+	.wack1 {
+		max-height:35vw;
+	}
+	
+	.othor {
+		display:flex;
+		text-align:justify;
+		justify-content:center;
+		flex-direction:column;
+		margin-left:13vw;
+		margin-right:13vw;
+		margin-top:6.5vw;
+		margin-bottom:12vw;
+		border:1vw dashed #ff9aa2;
+		border-radius:2vw;
+		padding:3vw;
+		background-color:#F4E6E6;
+	}
+	
+	.hether {
+		font-size:7vw;
+		font-family: 'Caveat Brush', cursive;
+		display:flex;
+		justify-content:center;
+		margin:0;
+	}
+	
+	.hether a {
+		text-decoration:none;
+		color:#AB7474;
+	}
+	
+	.guts {
+		font-size:6vw;
+		font-family:'Nanum Pen Script', cursive;
+		margin:1vw;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	
+	.teks {
+		font-size:7vw;
+		border-bottom:outset #e7c7c7;
+		margin:0;
+		padding:7vw;
+		display:flex;
+		justify-content:center;
+		background-color:#e7c7c7;
+	}
+	
+	.boom {
+		display:none;
+	}
+	
+	.lecontent {
+		display:none;
+	}
+	
+	.boxx {
+		position:initial;
+		top:initial;
+		left:initial;
+		transform:initial;
+		padding: initial;
+		box-sizing:initial;
+		background-color:initial;
+		border-radius:initial;
+		display:initial;
+		width:initial;
+		transition:initial;
+		border:initial;
+		font-size:initial;
+	}
+	
+	.bom {
+		display:flex;
+		justify-content:center;
+	}
+	
+	.bom1 {
+		max-height:45vw;
+		margin-top:2vw;
+	}
+	
+	.navigate {
+		display:none;
+	}
+	
+	.imgboxx {
+		width:initial;
+		flex:initial;
+	}
+	
+	.dacontent {
+		display:flex;
+		text-align:justify;
+		justify-content:center;
+		flex-direction:column;
+		margin-left:13vw;
+		margin-right:13vw;
+		margin-top:0;
+		margin-bottom:6vw;
+		border:1vw dashed #ff9aa2;
+		border-radius:2vw;
+		padding:3vw;
+		background-color:#F4E6E6;
+	}
+	
+	.eych2 {
+		font-size:7vw;
+		font-family: 'Caveat Brush', cursive;
+		display:flex;
+		justify-content:center;
+		margin:0;
+	}
+	
+	.eych2 a {
+		text-decoration:none;
+		color:#AB7474;
+	}
+	
+	.desc {
+		font-size:6vw;
+		font-family:'Nanum Pen Script', cursive;
+		margin:1vw;
+	}
+	
+	.trail {
+		display:flex;
+		justify-content:center;
+		color:#AB7474;
+	}
+	
+	.wack {
+		display:flex;
+		justify-content:center;
+		margin-top:7vw;
+	}
+	
+	.wack1 {
+		max-height:35vw;
+	}
+	
+	.othor {
+		display:flex;
+		text-align:justify;
+		justify-content:center;
+		flex-direction:column;
+		margin-left:13vw;
+		margin-right:13vw;
+		margin-top:6.5vw;
+		margin-bottom:12vw;
+		border:1vw dashed #ff9aa2;
+		border-radius:2vw;
+		padding:3vw;
+		background-color:#F4E6E6;
+	}
+	
+	.hether {
+		font-size:7vw;
+		font-family: 'Caveat Brush', cursive;
+		display:flex;
+		justify-content:center;
+		margin:0;
+	}
+	
+	.hether a {
+		text-decoration:none;
+		color:#AB7474;
+	}
+	
+	.guts {
+		font-size:6vw;
+		font-family:'Nanum Pen Script', cursive;
+		margin:1vw;
+	}
+}
