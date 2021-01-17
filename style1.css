@@ -1,0 +1,189 @@
+.colorLAWL {
+	background-color:#DDD1FF;
+	margin:0;
+	padding:0;
+}
+
+.navigate {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align:center;
+	background-color:#BC8FD0;
+	color: #fff;
+	border-width:100%;
+	margin:0;
+	padding:0;
+}
+
+.navlinks ul{
+	margin:0;
+	padding:0;
+	display:flex;
+	text-align:center;
+}
+
+.navlinks li {
+	text-decoration:none;
+	color:white;
+	padding: 1.4vw;
+	display:block;
+	text-align:center;
+}
+
+.navlinks li a {
+	text-decoration:none;
+	color:white;
+	text-align:center;
+}
+
+.navlinks li:hover {
+	background-color:#DAB9E6;
+}
+
+.desc {
+	font-family: 'Nanum Pen Script', cursive;
+	text-align: center;
+	font-size:2.8646vw;
+}
+
+.divv{
+	font-family: 'Nanum Pen Script',cursive;
+	font-size:1.823vw;
+	margin-bottom:5vw;
+	margin-left:5vw;
+	margin-right:5vw;
+	margin-top:2vw;
+	word-wrap:break-word;
+	text-align:justify;
+}
+
+li {
+	font-size: 1.405vw;
+	font-family: 'Nanum Pen Script', cursive;
+	text-align:left;
+}
+
+.guts {
+	font-family: 'Nanum Pen Script',cursive;
+	margin-left:2.0836vw;
+	font-size:1.823vw;
+}
+
+.top {
+	display:none;
+}
+
+.navi {
+	display:flex;
+	justify-content:center;
+	margin-bottom:10vw;
+}
+
+.rightarrow {
+	transform: rotate(-180deg);
+	margin:2vw 3.5vw 0;
+}
+
+.leftarrow {
+	margin:2vw 3.5vw 0;
+}
+
+@media screen and (max-width: 800px) {
+	.navigate {
+		display:none;
+	}
+	
+	.top {
+		display:flex;
+		font-family:'Caveat Brush', cursive;
+		color:#fff;
+		border-bottom:outset #bc8fd0;
+		padding:1vw;
+		margin:0;
+		justify-content:center;
+		background-color:#bc8fd0;
+		font-size:7vw;
+	}
+	
+	.teks {
+		display:initial;
+	}
+	
+	.divv {
+		margin-top:5vw;
+		width:85%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:12vw;
+	}
+	
+	.desc {
+		font-size:6vw;
+	}
+	
+	.guts {
+		font-size:5.5vw;
+	}
+	
+	.leftarrow {
+		max-height:9vw;
+		max-width:9vw;
+	}
+	
+	.rightarrow {
+		max-height:9vw;
+		max-width:9vw;
+	}
+	
+}
+
+@media screen and (max-width: 400px) {
+	.navigate {
+		display:none;
+	}
+	
+	.top {
+		display:flex;
+		font-family:'Caveat Brush', cursive;
+		color:#fff;
+		border-bottom:outset #bc8fd0;
+		padding:1vw;
+		margin:0;
+		justify-content:center;
+		background-color:#bc8fd0;
+		font-size:7vw;
+	}
+	
+	.teks {
+		display:initial;
+	}
+	
+	.divv {
+		margin-top:5vw;
+		width:85%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:12vw;
+	}
+	
+	.desc {
+		font-size:6vw;
+	}
+	
+	.guts {
+		font-size:5.5vw;
+	}
+	
+	.leftarrow {
+		max-height:9vw;
+		max-width:9vw;
+	}
+	
+	.rightarrow {
+		max-height:9vw;
+		max-width:9vw;
+	}
+	
+}
+	
